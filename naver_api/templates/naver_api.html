@@ -1,5 +1,22 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<form method="post">    
+    {% csrf_token %}
+    <div>
+        <input type="text" placeholder="NAVER client ID" name="client_id" />
+        <input type="text" placeholder="NAVER client secret key" name="client_secret" />
+    </div>
+    <div>
+        <h5>검색어 입력</h5>
+        <input type="text" placeholder="검색어 입력" name="naver_search"/>
+    </div>        
+    <div>
+        <h5>갯수입력(10추천)</h5>
+        <input type="number" placeholder="갯수입력(10추천)" value="10" name="naver_search_num" />
+    </div>
+    <input type="submit"/>
+</form>
+
 
 {% endblock %}
