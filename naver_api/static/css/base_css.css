@@ -1,0 +1,27 @@
+
+
+header{
+    color: blueviolet;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+
+nav{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    padding: 10px 50px;
+    min-height: 500px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
