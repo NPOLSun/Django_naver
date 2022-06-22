@@ -9,7 +9,7 @@ idna==2.9
 ipython==7.15.0
 ipython-genutils==0.2.0
 jedi==0.17.1
-numpy==1.18.5
+numpy==1.22.0
 pandas==1.0.4
 parso==0.7.0
 pickleshare==0.7.5
